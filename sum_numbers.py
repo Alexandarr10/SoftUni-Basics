@@ -1,10 +1,7 @@
-input_count = int(input())
+upper_num = int(input())
+sum = 0
 
-result = 0
-
-for i in range(0 , input_count):
-    num = int(input())
-    result += num
-
-    print(result)
-
+while sum < upper_num:
+    user_input = int(input())
+    sum += user_input
+print (sum)
